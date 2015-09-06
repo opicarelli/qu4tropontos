@@ -1,0 +1,52 @@
+#personal-page {
+    min-height: 100%;
+    position: relative;
+    margin: 50px 0;
+}
+
+#personal-page  h1 {
+    margin: 100px 0 5px 50px;
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+#personal-page  h2 {
+    margin: 0 0 10px 50px;
+    color: #4D4D4D;
+    font-size: 16px;
+}
+
+#personal-page #personal-image {
+    float: left;
+    width: 314px;
+    height: 220px;
+}
+
+#personal-page  #personal-image img {
+    width: 250px;
+    height: 200px;
+    margin: 20px 0 10px 50px;
+    border-radius: 5%;
+}
+
+#personal-page #personal-info {
+    margin: 32px 60px 0 50px;
+}
+
+#personal-page #personal-info p {
+    line-height: 23px;
+    text-indent: 30px;
+}
+
+
+@media all and (max-width: 800px) {
+    .header {
+        position: relative;
+    }
+    #personal-page {
+        margin: 0;
+    }
+    #personal-page  h1 {
+        margin: 50px 0 5px 50px;
+    }
+}
