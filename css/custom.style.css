@@ -1,16 +1,16 @@
-#personal-page {
+#personal-page, #we-page {
     min-height: 100%;
     position: relative;
     margin: 50px 0;
 }
 
-#personal-page  h1 {
+#personal-page  h1, #we-page h1 {
     margin: 100px 0 5px 50px;
     color: #4D4D4D;
     font-weight: bold;
 }
 
-#personal-page  h2 {
+#personal-page  h2, #we-page h2 {
     margin: 0 0 10px 50px;
     color: #4D4D4D;
     font-size: 16px;
@@ -38,6 +38,50 @@
     text-indent: 30px;
 }
 
+#we-page .we-personal {
+    width: 600px;
+    height: 250px;
+}
+
+#we-page .we-personal .we-personal-image {
+    float: left;
+    width: 314px;
+    height: 220px;
+}
+
+#we-page .we-personal .we-personal-image img {
+    width: 250px;
+    height: 200px;
+    margin: 20px 0 10px 50px;
+    border-radius: 5%;
+}
+
+#we-page .we-personal .we-personal-info {
+    margin: 32px 0 0 10px;
+    display: inline-block;
+}
+
+#we-page .we-personal .we-personal-info span.we-personal-info-name {
+    display: block;
+    color: #4D4D4D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#we-page .we-personal .we-personal-info span.we-personal-info-detail {
+    display: block;
+    color: #4D4D4D;
+    font-size: 14px;
+}
+
+#we-page .we-personal .we-personal-info span.we-personal-info-name a {
+    color: #151708;
+}
+
+#we-page .we-personal .we-personal-info span.we-personal-info-name a:hover {
+    text-decoration: none;
+    color: #009cff;
+}
 
 @media all and (max-width: 800px) {
     .header {
