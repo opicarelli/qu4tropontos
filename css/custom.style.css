@@ -39,26 +39,36 @@
 }
 
 #we-page .we-personal {
-    width: 600px;
-    height: 250px;
+    width: auto;
+    /* height: 250px; */
+    display: inline-block;
+    margin: 20px 0;
+    float: left;
+    clear: both;
+    padding-left: 50px;
 }
 
 #we-page .we-personal .we-personal-image {
     float: left;
-    width: 314px;
-    height: 220px;
+    width: 250px;
+    height: 200px;
 }
 
 #we-page .we-personal .we-personal-image img {
     width: 250px;
     height: 200px;
-    margin: 20px 0 10px 50px;
+    margin: 20px 0 10px 0;
     border-radius: 5%;
 }
 
 #we-page .we-personal .we-personal-info {
     margin: 32px 0 0 10px;
     display: inline-block;
+}
+
+#we-page .we-personal .we-personal-info p {
+    max-width: 400px;
+    text-align: justify;
 }
 
 #we-page .we-personal .we-personal-info span.we-personal-info-name {
@@ -81,6 +91,12 @@
 #we-page .we-personal .we-personal-info span.we-personal-info-name a:hover {
     text-decoration: none;
     color: #009cff;
+}
+
+#texto {
+    margin: 20px 10px 10px 50px;
+    line-height: 20px;
+    max-width: 800px;
 }
 
 @media all and (max-width: 800px) {
