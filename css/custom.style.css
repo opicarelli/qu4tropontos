@@ -25,7 +25,7 @@
 #personal-page  #personal-image img {
     width: 250px;
     height: 200px;
-    margin: 20px 0 10px 50px;
+    margin: 0 0 10px 50px;
     border-radius: 5%;
 }
 
@@ -116,7 +116,7 @@
 }
 #image-set {
     clear: both;
-    margin: 50px;
+    margin: 30px 50px;
 }
 
 .image-link {
