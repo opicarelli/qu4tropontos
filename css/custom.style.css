@@ -1,16 +1,16 @@
-#personal-page, #we-page {
+#personal-page, #we-page, #pictures-page {
     min-height: 100%;
     position: relative;
     margin: 50px 0;
 }
 
-#personal-page  h1, #we-page h1 {
+#personal-page  h1, #we-page h1, #pictures-page h1 {
     margin: 100px 0 5px 50px;
     color: #4D4D4D;
     font-weight: bold;
 }
 
-#personal-page  h2, #we-page h2 {
+#personal-page  h2, #we-page h2, #pictures-page h2 {
     margin: 0 0 10px 50px;
     color: #4D4D4D;
     font-size: 16px;
@@ -102,7 +102,8 @@
 #personal-block {
     min-height: 220px;
 }
-#image-set {
+
+.image-set {
     clear: both;
     margin: 30px 50px;
 }
@@ -127,9 +128,11 @@
     clear: both;
     padding: 30px;
 }
+
 #footer img {
     width: 640px;
 }
+
 
 @media all and (max-width: 800px) {
     .header {
