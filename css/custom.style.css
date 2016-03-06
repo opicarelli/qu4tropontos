@@ -42,7 +42,7 @@
     width: auto;
     /* height: 250px; */
     display: inline-block;
-    margin: 20px 0;
+    margin: 20px 20px 20px 0;
     float: left;
     clear: both;
     padding-left: 50px;
@@ -99,18 +99,6 @@
     max-width: 800px;
 }
 
-@media all and (max-width: 800px) {
-    .header {
-        position: relative;
-    }
-    #personal-page {
-        margin: 0;
-    }
-    #personal-page  h1 {
-        margin: 50px 0 5px 50px;
-    }
-}
-
 #personal-block {
     min-height: 220px;
 }
@@ -130,4 +118,34 @@
 
 .lb-data .lb-number {
     margin-left: 10px;
+}
+
+#footer {
+    margin: auto;
+    width: 640px;
+    position: relative;
+    clear: both;
+    padding: 30px;
+}
+#footer img {
+    width: 640px;
+}
+
+@media all and (max-width: 800px) {
+    .header {
+        position: relative;
+    }
+    #personal-page {
+        margin: 0;
+    }
+    #personal-page  h1 {
+        margin: 50px 0 5px 50px;
+    }
+    #footer {
+        width: 100%;
+        padding: 0;
+    }
+    #footer img {
+        width: 100%;
+    }
 }
